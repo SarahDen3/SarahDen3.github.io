@@ -1,0 +1,421 @@
+.subtitulo
+{
+    color: #59afc7;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px
+}
+.titulo
+{
+    color: #dbbf9a;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 45px
+}
+.menu
+{
+    display: inline-block;
+    color: #628db1;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.menu:hover
+{
+    color: #ffffff;
+}
+.imagen1
+{
+    background: url('Recursosmusica/Cry\ baby.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen2
+{
+    background: url('Recursosmusica/K-12.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen3
+{
+    background: url('Recursosmusica/Portals.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen4
+{
+    background: url('Recursosmusica/Cry\ baby\ foto.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen5
+{
+    background: url('Recursosmusica/k12\ imagen.webp');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen6
+{
+    background: url('Recursosmusica/Portals\ imagen.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen7
+{
+    background: url('Recursosmusica/Icon\ cry\ baby.png');
+    height: 160px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen8
+{
+    background: url('Recursosmusica/Sticker\ portals.png');
+    height: 175px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen9
+{
+    background: url('Recursosmusica/Icono\ k12.png');
+    height: 150px;
+    width: 180px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen10
+{
+    background: url('Recursosmusica/Play_Date.webp');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen11
+{
+    background: url('Recursosmusica/Melanie-Martinez-Pacify-Her-2016-billboard-1548.webp');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen12
+{
+    background: url('Recursosmusica/DollHouse\ imagen.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen13
+{
+    background: url('Recursosmusica/carousel\ imagen.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen14
+{
+    background: url('Recursosmusica/Tagyoureit\ imagen.png');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen15
+{
+    background: url('Recursosmusica/Fire\ drill.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagenesjuntas
+{
+    display: inline-block;
+}
+.cancion1
+{
+    background: url('Recursosmusica/Play\ date.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.cancion2
+{
+    background: url('Recursosmusica/Pacify\ her.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.cancion3
+{
+    background: url('Recursosmusica/Doll\ house.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.sencillo1
+{
+    background: url('Recursosmusica/Carousel.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.sencillo2
+{
+    background: url('Recursosmusica/tag\ youre\ it.webp');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.sencillo3
+{
+    background: url('Recursosmusica/Fire\ drill.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+html
+{
+    scroll-behavior: smooth;   
+}
+.texto1
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    display: inline-block;
+    width: 300px;
+    height:50px;
+    margin-right: 30px;
+    margin-left: 80px;
+    opacity: 0.8;
+}
+.texto2
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    display: inline-block;
+    width: 300px;
+    height:50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.texto3
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    display: inline-block;
+    width: 300px;
+    height:50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.piepagina
+{
+    width: 100%;
+    height: 30px;  
+    background-color: #A2D2DF;
+    opacity: 0.5;   
+}
+a
+{
+    text-decoration: none;
+}
+.filtros
+{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.9s;
+}
+.filtros:hover
+{
+    filter: drop-shadow(15px 15px 20px black) grayscale(90%);
+    transition: 0.9s;
+}
+.fijo
+{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    height: 50px; 
+    background-color: #A2D2DF; 
+    padding-top: 20px;
+    z-index: 100;
+}
+.piepagina2
+{
+    top: 0;
+    width: 100%; 
+    height: 230px; 
+    padding-top: 20px;
+    z-index: 100;
+}
+.filtros2
+{
+    background-size: cover;
+    background-position: center;
+    transition: 0.9s;
+}
+.filtros2:hover
+{
+    filter: drop-shadow(15px 15px 20px black) saturate(200%);
+    transition: 0.9s;
+}
+.texto
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    opacity: 0.8;
+    display: inline-block;
+}
+.boton
+{
+    background-color: #93c8d6;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin: 20px;
+}
+.boton:hover
+{
+    background-color: #dbbf9a;
+    color: black;
+    border: none;
+}
+.contenedor1
+{
+    margin-right: 730px;
+    margin-left: 70px;
+}
+.contenedor2
+{
+    margin-left: 730px;
+    margin-right: 70px;
+}
+.contenedores
+{
+    display: inline-block;
+}
+.parrafo
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.formulario
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.imagen
+{
+    width: 100%;
+    height: 500px;
+}
+.enviar
+{
+    background-color: #59afc7;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: 20px;    
+}
+.enviar:hover
+{
+    background-color: #dbbf9a;
+}
+.carrusel-rotativo
+{
+    width: 1280px;
+    height: 600px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.carrusel-rotativo ul
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+.carrusel-rotativo li
+{
+    list-style: none;
+    width: 100%;
+}
+.carrusel-rotativo img
+{
+    width: 100%;
+}
+@keyframes slide
+{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+    
+    75% {margin-left: -300%}
+    100% {margin-left: -300%}
+}
+

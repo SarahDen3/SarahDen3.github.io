@@ -1,0 +1,286 @@
+html
+{
+    scroll-behavior: smooth;   
+}
+.parrafo
+{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+.tipografia 
+{
+    font-family: "Jolly Lodger", system-ui;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #e6e6e6;
+  }
+  .tipografia2
+  {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #e6e6e6;
+  }
+  .titulo
+  {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color: #dbdbdb;
+  }
+  .logo
+  {
+    background: url('Recursoshistoria/Logo.png');
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin-right: 1800px;
+    border-radius: 50px;
+  }
+  .logo-principal
+  {
+    background: url('Recursoshistoria/Logo.png');
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin-right: 1800px;
+    border-radius: 50px;
+  }
+
+  .fijo
+  {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100px; 
+      background-color: #000000; 
+      padding-top: 20px;
+      z-index: 100;
+  }
+  .menu
+  {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 50px;
+      font-family: "Rubik Wet Paint", system-ui;
+      font-weight: 200;
+  }
+  .menu2
+  {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 50px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;  
+  }
+  .menu3
+  {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 20px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;  
+  }
+  .piepagina
+{
+    background-color: #000000;
+    height: 60px;
+    width: 100%;
+    font-family: "Jolly Lodger", system-ui;
+    font-size: 20px;
+    color: #ffffff;
+}
+.carrusel-rotativo
+{
+    width: 1380px;
+    height: 700px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.carrusel-rotativo ul
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+}
+.carrusel-rotativo li
+{
+    list-style: none;
+    width: 100%;
+}
+.carrusel-rotativo img
+{
+    width: 100%;
+}
+@keyframes slide
+{
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%}
+    70% {margin-left: -200%}
+    
+    75% {margin-left: -300%}
+    100% {margin-left: -300%}
+}
+.imagen1
+{
+    background: url('Recursoshistoria/slenderman.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen2
+{
+    background: url('Recursoshistoria/ticci\ toby.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen3
+{
+    background: url('Recursoshistoria/Jeff.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen4
+{
+    background: url('Recursoshistoria/scp682.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen5
+{
+    background: url('Recursoshistoria/scp049.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagen6
+{
+    background: url('Recursoshistoria/scp001.jpg');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.imagenesjuntas
+{
+    display: inline-block;
+}
+.filtros
+{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.9s;
+}
+.filtros:hover
+{
+    filter: grayscale(90%);
+    transition: 0.9s;
+}
+.ubuntu-light 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic 
+  {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .formulario
+  {
+      color: rgb(0, 0, 0);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+      display: inline-block;
+      margin-right: 30px;
+      margin-left: 30px;
+      opacity: 0.8;
+  }
+  .imagen
+  {
+      width: 100%;
+      height: 500px;
+  }
+  .galeria
+  {
+      display: inline-block;
+      width: 500px;
+      height: 300px;
+  }
+
+
+  
+
+  
+  

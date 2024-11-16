@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilos musica.css">
+    <!-- tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0;" background="Recursosmusica/fondo-puntos-gris-claro_78370-2583.avif">
+    <img class="imagen" src="Recursosmusica/Fondo de suscripción.jpg">
+    <center><div class="titulo">Ingresa tus datos</div>
+        <br>
+<div class="formulario" style="margin-left: 20px;">
+    <div>Nombre completo</div>
+    <br>
+    <input type="text" name="nombres" placeholder="Ingresa tus nombres">
+    <input style="position: relative; left: 40px;" type="text" name="apellidos" placeholder="Ingresa tus apellidos">
+    <br><br>
+    <div>Fecha de nacimiento</div>
+    <br>
+    <input type="date" name="Fecha">
+    <br><br>
+    <div>Correo electrónico</div>
+     <!-- verificación de correo -->
+<p></p>
+<script>
+    function validar()
+    {
+            var correo = document.getElementById("correo").value;
+            if (correo.includes("@")&& correo.includes("."))
+        {
+            alert ("Correo electrónico válido");
+        }
+        else
+        {
+            alert ("Correo electrónico no válido");
+        }
+    }
+</script>
+<input type="email" id="correo" name="correo">
+<button onclick="validar()">Validar email</button>
+    <br><br>
+    <div>Número de teléfono</div>
+    <br>
+    <input type="text" name="nombre" placeholder="Ingresa tu número">
+    <br><br>
+    <input class="enviar" type="submit" name="enviar">
+</div>
+    <div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; opacity: 0.8;">Si te suscribes podrás recibir contenido exclusivo y enviaremos a tu correo electrónico las novedades</div>
+</center>
+</body>
+</html>
