@@ -278,6 +278,40 @@ html
       width: 500px;
       height: 300px;
   }
+.1
+{
+    background: url('5.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.2
+{
+    background: url('6.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.3
+{
+    background: url('7.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.4
+{
+    background: url('8.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 
   
