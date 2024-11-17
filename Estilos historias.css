@@ -310,6 +310,33 @@ html
     background-size: cover;
     background-position: center;
 }
+.5
+{
+    background: url('9.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.6
+{
+    background: url('10.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.7
+{
+    background: url('11.jpg');
+    width: 1380px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 
 
 
